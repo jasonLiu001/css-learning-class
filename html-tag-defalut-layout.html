@@ -8,27 +8,33 @@
 .container {
 }
 .item1 {
-	width: 100px;
 	height: 100px;
 	border: 1px solid #000;
 }
 .item2 {
-	width: 100px;
 	height: 200px;
 	border: 1px solid #000;
 }
 .item3 {
-	width: 100px;
 	height: 300px;
 	border: 1px solid #000;
+}
+table {
+	border: 1px solid #000;
+}
+table tr {
+	border-bottom: 1px solid #000;
+}
+table tr td {
+	border-right: 1px solid #000;
 }
 </style>
 </head>
 <body>
 <div class="container">
-  <div class="item1"> </div>
-  <div class="item2"> </div>
-  <div class="item3"> </div>
+  <div class="item1"> 我是div1</div>
+  <div class="item2"> 我是div2</div>
+  <div class="item3"> 我是div3</div>
 </div>
 <a href="javascript:void(0);">我是a标签</a> <a href="javascript:void(0);">我是a标签</a>
 <p>我是p元素</p>
@@ -45,12 +51,39 @@
 <em>我是em</em> <em>我是em</em>
 <form>
   <p>我是form表1单</p>
-  <input type="text" value="查询" />
-  <input type="text" value="提交" />
+  <input type="text" style="width:200px;height:300px;" value="我是input1" />
+  <input type="text" value="我是input2" />
 </form>
-<i>我是i标签</i>
-<i>我是i标签</i>
-<img src="http://www.w3school.com.cn/i/eg_tulip.jpg" alt="我是img-alt" title="我是img-title"/>
-<img src="http://www.w3school.com.cn/i/eg_tulip.jpg" alt="我是img-alt" title="我是img-title"/>
+<i>我是i标签</i> <i>我是i标签</i> <img src="http://www.w3school.com.cn/i/eg_tulip.jpg" alt="我是img-alt" title="我是img-title"/> <img src="http://www.w3school.com.cn/i/eg_tulip.jpg" alt="我是img-alt" title="我是img-title"/>
+<label>我是label1</label>
+<label>我是label2</label>
+<p>表格1</p>
+<table>
+  <tr>
+    <td>字段1</td>
+    <td>字段2</td>
+  </tr>
+  <tr>
+    <td>字段1</td>
+    <td>字段2</td>
+  </tr>
+</table>
+<p>表格2</p>
+<table>
+  <tr>
+    <td>字段1</td>
+    <td>字段2</td>
+  </tr>
+  <tr>
+    <td>字段1</td>
+    <td>字段2</td>
+  </tr>
+</table>
+<textarea rows="3" cols="20">
+我是textarea控件1
+</textarea>
+<textarea rows="3" cols="20">
+我是textarea控件2
+</textarea>
 </body>
 </html>
